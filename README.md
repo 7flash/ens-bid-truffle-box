@@ -30,12 +30,13 @@ In order to run the Truffle box, you will need [Node.js](https://nodejs.org) (te
 
 2. Install yarn.
 
-#### MacOS
     ```javascript
+    ## MacOS
     brew install yarn
+
+    ## Windows
+    https://yarnpkg.com/en/docs/install#windows-tab
     ```
-#### Windows
-https://yarnpkg.com/en/docs/install#windows-tab
 
 3. Download box.
     ```javascript
