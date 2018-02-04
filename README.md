@@ -84,7 +84,7 @@ In order to run the Truffle box, you will need [Node.js](https://nodejs.org) (te
 
 * __Where is my production build?__
 
-    The production build will be in the build_webpack folder. This is because Truffle outputs contract compilations to the build folder.
+    The production build will be in the build folder.
 
 * __Where can I find more documentation?__
 
