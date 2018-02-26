@@ -22,10 +22,10 @@ In order to run the Truffle box, you will need [Node.js](https://nodejs.org) (te
 
 ## Installation and Building
 
-1. Install truffle and an ethereum client. For local development, try Ethereum TestRPC.
+1. Install truffle and an ethereum client. For local development, try Ganache CLI.
     ```javascript
     npm install -g truffle
-    npm install -g ethereumjs-testrpc
+    npm install -g ganache-cli
     ```
 
 2. Install yarn.
@@ -48,9 +48,9 @@ In order to run the Truffle box, you will need [Node.js](https://nodejs.org) (te
     yarn install
     ```
 
-5. Run Ethereum RPC.
+5. Run Ganache CLI.
     ```javascript
-    testrpc
+    ganache-cli
     ```
 
 6. Compile and migrate the contracts.
@@ -80,13 +80,8 @@ In order to run the Truffle box, you will need [Node.js](https://nodejs.org) (te
 
 * __Why is there both a truffle.js file and a truffle-config.js file?__
 
-    Truffle requires the truffle.js file be named truffle-config on Windows machines. Feel free to delete the file that doesn't correspond to your platform.
+    Truffle requires the truffle.js file be named truffle-config for CMD on Windows machines. Feel free to delete the file that doesn't correspond to your platform.
 
 * __Where is my production build?__
 
     The production build will be in the build folder.
-
-* __Where can I find more documentation?__
-
-    All truffle boxes are a marriage of [Truffle](http://truffleframework.com/) and a React setup created with [create-react-app](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md). Either one would be a great place to start!
-    
